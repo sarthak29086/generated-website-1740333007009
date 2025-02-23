@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #4CAF50; color: white; padding: 10px 0; text-align: center; }
+        nav { background-color: #333; overflow: hidden; }
+        nav a { float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; }
+        nav a:hover { background-color: #ddd; color: black; }
+        main { padding: 20px; }
+        footer { background-color: #333; color: white; text-align: center; padding: 10px 0; position: fixed; width: 100%; bottom: 0; }
+        .cart-item { border-bottom: 1px solid #ccc; padding: 10px 0; }
+        .total { font-weight: bold; }
+        .checkout-btn { background-color: #4CAF50; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+        .checkout-btn:hover { background-color: #45a049; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cart Page</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#cart">Cart</a>
+    </nav>
+    <main>
+        <h2>Your Cart</h2>
+        <div class="cart-item">
+            <p>Item 1 - $10.00</p>
+            <input type="number" value="1" min="1">
+        </div>
+        <div class="cart-item">
+            <p>Item 2 - $15.00</p>
+            <input type="number" value="1" min="1">
+        </div>
+        <div class="total">
+            <p>Total: $25.00</p>
+        </div>
+        <button class="checkout-btn">Proceed to Checkout</button>
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Company</p>
+    </footer>
+    <script>
+        // JavaScript to handle cart actions can be added here
+    </script>
+</body>
+</html>
